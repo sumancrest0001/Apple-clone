@@ -123,24 +123,6 @@ a{
 color: white;
 }
 
-/*.content-2{
-	width: 980px;
-	height: 82px;
-	margin: 5px auto 0px auto;
-	vertical-align: middle;
-}
-.content-2 p{
-	font-size: 30px;
-	line-height: 36px;
-	font-weight: 300;
-	padding: 0px 40px;
-	margin: auto;
-	text-align: center;
-	vertical-align: middle;
-	
-}*/
-
-
 .content-3 {
 	width: 980px;
 	height: 36px;
@@ -151,6 +133,7 @@ color: white;
     background-size: auto;
     vertical-align: center;
 }
+
 .content-3:hover{
 	background-position: bottom;
 }
@@ -160,6 +143,7 @@ color: white;
 	display: flex;
 	justify-content: space-between;
 }
+
 .middle-section a{
 	width: 25%;
 	height: 200px;
@@ -171,8 +155,6 @@ color: white;
 .article-1{
 background-image: url("https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_iphone5s.jpg");
 display: block;
-width: 100%;
-height: 200px;
 }
 
 .article-2 {
@@ -199,31 +181,33 @@ height: 200px;
 }
 
 .container div 
-{width: 49%}
-.container div p {
+{width: 49%
+}
 
+.container div p {
 font-size: 10px;
 line-height: 12px;
 margin-bottom: 10px;
 color: #6e6e6e;
 }
 
-
-.footer-items
-{
+.footer-items{
 	width: 49%;
 	line-height: 12px;
 	margin-top: -2px;
 }
+
 .footer-item{
 	display: inline-block;
 	text-align: center;
 	padding-right: 2px;
 	font-size: 10px;	
 }
+
 .footer-item:not(.footer-item-8){
 	border-right: 1px solid #848383;
 }
+
 .footer-item-8{
 	position: relative;
 }
